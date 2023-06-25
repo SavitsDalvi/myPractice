@@ -1,6 +1,6 @@
-<br> <br>
-<!-- <h2>{{firstname}}</h2> -->
-<h2 class="user-name">Welcome {{studentname}}</h2>
+<!-- <br> <br>
+<h2>{{firstName}}</h2> 
+<h2 class="user-name">Welcome {{studentName}}</h2>
 <div class="container">
     <form>
         <h2>{{formTitle}}</h2>
@@ -12,7 +12,7 @@
         <br> <br>
         <button class="sbmt-btn">Submit</button>
         </form>
-        </div>
+        </div> -->
 
     
 <!-- //data binding in angular:
@@ -22,4 +22,14 @@
 //2.property Binding:[]
 //3.Event binding:()
 //2.two way data binding:[()] -->
-<p>you have received amont ---{{amount}}</p>
+<!-- <p>you have received amont ---{{amount}}</p>
+<app-sign-up></app-sign-up> -->
+<!-- <a href="login">click</a> Application is getting refresh while roting href attribute hance avoid to use it. -->
+<!-- <a routerLink="sign-up">click</a> -->
+<router-outlet></router-outlet>
+ <!--it is an angular directive from router library
+     and used to insert components macthed by routes to be display on the screen-->
+     <!-- <button routerLink="sign-up">signup</button> -->
+     
+     <!-- <button routerLink="adminlogin">signup</button> -->
+

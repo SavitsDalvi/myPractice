@@ -23,7 +23,6 @@ export class AppComponent {
 
   testingInterpolation( x :number, y :number){
     return x + y;
-  } 
-  }
+    }  }
 
-}
+
