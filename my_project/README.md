@@ -17,7 +17,8 @@ simple routing :
 
 command to create new module :ng g m admin --routing
  to create module and update app.routing .ts :
- ng g m student --route student --module app.module
+
+ ng g m student --route student --module app.module <----this command create as like app module..in that module create routing and module.ts + create component> avoid this command structure change
 
 Angular Artchitecture
  compo: building blocks of angular application

@@ -1,5 +1,13 @@
 <p>home works!</p>
-<button routerLink = "admin/adminlogin">admin login component</button><br><br>
-<button routerLink="admin/adminsignup">admin signup component</button><br><br>
+<button routerLink = "/login">Globel Login</button><br><br>
+<!--                      /admin-'admin'module path and/adminlogin-is a module component path'adminlogin'  -->
+<button routerLink = "/admin/adminlogin">admin login component</button><br><br>
+<button routerLink="/admin/adminsignup">admin signup component</button><br><br>
+<button routerLink="/admin/adminsignup">admin signup component</button><br><br>
+<button routerLink="/owner/ownerLogin">owner login component</button><br><br>
+<!-- owner is path of app-routing.module.ts/ownerLogin is path of owner-routing-module.ts file -->
+
 <!-- <button (click)="login()" class="btn-login"> Login </button>&nbsp; -->
+<button (click)="loginCompo()">Globel login</button> 
+<button (click)="adminloginCompo()">admin login component</button>
     <!-- <button (click)="signUp()" class="btn-login"> Sign Up </button> -->
