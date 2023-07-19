@@ -1,0 +1,71 @@
+.container{
+    background-color: green;
+    height: 1000px;
+    width: 100%;
+}
+
+
+.btn-back{
+    position: relative;
+    width: 80px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    background-color: chocolate;
+}
+.heading{
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    margin-top: 10px;
+
+}
+
+.form-container{
+    text-align: center;
+    position: relative;
+
+    margin-top: 25px;
+    border: 2px;border-color:solid-black;
+    margin: auto;
+    background-color: antiquewhite;
+    height: 500px;
+    width:370px;
+    padding: 6px 6px;
+
+}
+.label{
+    font-size: 20px;
+    position: relative;
+    top :4px;
+
+
+}
+.inp-box{
+    padding: 5px;
+    margin-top:10px;
+    width:230px;
+
+}
+.span-err
+{
+    color:red;
+   font-size: 15px;
+
+}
+.pass{
+    font-size:20px;
+    padding: 5px;
+    margin: top 14px;
+   
+   
+}
+.Submit{
+    font-size:20px;
+    width: 90px;
+    margin-top:25px;
+    background-color:palevioletred;
+
+}

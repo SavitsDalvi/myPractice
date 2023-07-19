@@ -1,0 +1,18 @@
+.signup-form-container{
+    border: 1px solid black;
+    height: 400px;
+    width: 300px;
+    background-color: bisque;
+    margin-top: 40px;
+    margin-left: 70px;
+    padding: 30px;
+
+}
+.form-head{
+    margin-left: 160px;
+    color: red;
+}
+.err{
+    color:red;
+    
+}

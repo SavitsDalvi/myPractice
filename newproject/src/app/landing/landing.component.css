@@ -1,0 +1,24 @@
+.parent{
+    background-color: antiquewhite;
+    height: 1000px;
+    width: 100;
+}
+.heading{
+    text-align: center;
+}
+.btn-login{
+    padding: 2px 2px;
+    background-color: rgb(4, 238, 106) ;
+    text-align: center;
+    color: black;
+    margin: left;
+    font-size: 15px;
+}
+    .btn-sign-up{
+        padding: 2px 2px;
+        background-color: rgb(4, 238, 106);
+        text-align: center;
+        color: black;
+        margin: left;
+        font-size: 15px;
+}

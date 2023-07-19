@@ -1,1 +1,10 @@
-<p>landing works!</p>
+<div class="parent">
+    <h2 class="heading">My Application</h2>
+    &nbsp; <button (click)="login()" class="btn-login">login</button> &nbsp;
+    <button routerLink="/sign-up" class="btn-sign-up">sign-up</button>&nbsp;
+    <button (click)="StudentActivity()" class="btn-studActivity">StudentActivity</button>&nbsp;
+    <button routerLink="/student/studentdemo" class="btn-studDemo">StudentDemo</button>&nbsp;
+    <!-- (/..student)this is a module load path form app-routing-module.ts & /studentdemo is componant load path form student.module.ts file -->
+    <button (click)="directives()">Directives</button>
+
+  </div>
